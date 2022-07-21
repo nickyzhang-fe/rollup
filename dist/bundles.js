@@ -1,0 +1,1 @@
+define(["hello.ts","lodash"],(function(o,e){"use strict";function l(o){return o&&"object"==typeof o&&"default"in o?o:{default:o}}var n=l(e);return function(){var e=n.default.concat([1,2,3],4,[5]);console.log("Demo",o.Demo),console.log("getName",o.getName()),console.log("foo","hello world!"),console.log("arr",e),console.log("version 0.0.0")}}));

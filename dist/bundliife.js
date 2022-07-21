@@ -1,0 +1,1 @@
+import{Demo as o,getName as l}from"hello.ts";import e from"lodash";function r(){var r=e.concat([1,2,3],4,[5]);console.log("Demo",o),console.log("getName",l()),console.log("foo","hello world!"),console.log("arr",r),console.log("version 0.0.0")}export{r as default};
